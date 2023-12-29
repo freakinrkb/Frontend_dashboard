@@ -23,12 +23,12 @@ const router = createBrowserRouter(
       <Route path="contact-us" element={<Contact />} />
       <Route path="career" element={<Career />} />
       <Route path="services" element={<Service />} />
-    </Route>
-  )
+    </Route>,
+  ),
 );
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <RouterProvider router={router} />
-  </React.StrictMode>
+  </React.StrictMode>,
 );

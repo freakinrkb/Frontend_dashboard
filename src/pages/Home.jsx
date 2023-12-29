@@ -2,7 +2,7 @@ const Home = () => {
   return (
     <main>
       <section className="bg-[#F9FBFD] text-justify">
-        <div className="container two-col gap-2">
+        <div className="two-col container gap-2">
           <div className="odd">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias
             voluptates error similique id veritatis cum possimus animi vel,

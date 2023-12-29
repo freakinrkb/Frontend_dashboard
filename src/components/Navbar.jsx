@@ -13,18 +13,18 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="container relative h-20 md:h-28 flex justify-between items-center">
+    <nav className=" container relative flex h-20 items-center justify-between md:h-28">
       <div className="logo">
         <Link to="/">
           <img
-            className="absolute top-0 -left-[1.6rem] md:-left-[2.3rem] h-20 md:h-28 cursor-pointer"
+            className="absolute -left-[1.6rem] top-0 h-20 cursor-pointer md:-left-[2.3rem] md:h-28"
             src={Logo}
             alt="Logo"
           />
         </Link>
       </div>
       <div className="nav-elements">
-        <ul className="hidden md:flex items-center md:gap-8 lg:gap-12 text-md">
+        <ul className="text-md hidden items-center md:flex md:gap-8 lg:gap-12">
           <li>
             <NavLink to="/">Home</NavLink>
           </li>
@@ -38,7 +38,7 @@ const Navbar = () => {
             <NavLink to="/career">Career</NavLink>
           </li>
           <NavLink to="/contact-us">
-            <div className="rounded-full py-2 px-4 bg-[#2576BC] text-white">
+            <div className="rounded-full bg-[#2576BC] px-4 py-2 text-white">
               Contact us
             </div>
           </NavLink>
