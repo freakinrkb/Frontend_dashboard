@@ -1,0 +1,9 @@
+nav {
+  color: #343d48;
+  font-weight: 400;
+}
+
+.activeLink {
+  color: #1f75fe;
+  border-bottom: 1px solid red;
+}

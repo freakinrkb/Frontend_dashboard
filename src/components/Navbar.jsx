@@ -1,5 +1,6 @@
 import Logo from "@assets/logo.svg";
 import Hamburger from "@assets/hamburger.svg";
+import "./Navbar.css";
 
 import { NavLink, Link } from "react-router-dom";
 import { useState } from "react";
@@ -26,16 +27,36 @@ const Navbar = () => {
       <div className="nav-elements">
         <ul className="text-md hidden items-center md:flex md:gap-8 lg:gap-12">
           <li>
-            <NavLink to="/">Home</NavLink>
+            <NavLink
+              className={({ isActive }) => `${isActive ? "activeLink " : ""}`}
+              to="/"
+            >
+              Home
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/about">About us</NavLink>
+            <NavLink
+              className={({ isActive }) => `${isActive ? "activeLink " : ""}`}
+              to="/about"
+            >
+              About us
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/services">Service</NavLink>
+            <NavLink
+              className={({ isActive }) => `${isActive ? "activeLink " : ""}`}
+              to="/services"
+            >
+              Service
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/career">Career</NavLink>
+            <NavLink
+              className={({ isActive }) => `${isActive ? "activeLink " : ""}`}
+              to="/career"
+            >
+              Career
+            </NavLink>
           </li>
           <NavLink to="/contact-us">
             <div className="rounded-full bg-[#2576BC] px-4 py-2 text-white">
