@@ -1,6 +1,6 @@
 import Logo from "@assets/logo.svg";
 import Hamburger from "@assets/hamburger.svg";
-import "./Navbar.css";
+import "@styles/Navbar.css";
 
 import { NavLink, Link } from "react-router-dom";
 import { useState } from "react";
