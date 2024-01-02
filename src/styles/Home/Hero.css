@@ -1,0 +1,35 @@
+.red {
+  color: #990000;
+}
+.blue {
+  color: #0066b2;
+}
+.start-button {
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 30px;
+  gap: 5px;
+  background-color: #990000;
+  color: white;
+}
+.start-button img {
+  height: 20px;
+  width: 20px;
+}
+
+.video-button {
+  display: flex;
+  align-items: center;
+  color: #1f75fe;
+  gap: 15px;
+}
+.video-button button {
+  max-height: 45px;
+  background-color: white;
+  border: none;
+}
+.video-button img {
+  max-height: 45px;
+}
