@@ -8,3 +8,6 @@ nav {
   font-weight: 500;
   border-bottom: 1px solid red;
 }
+li {
+  @apply hover:shadow-sm;
+}

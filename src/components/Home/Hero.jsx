@@ -11,20 +11,20 @@ const Hero = () => {
     <section className="bg-[hsl(210,50%,96%)] py-16">
       <div className="two-col container">
         <div className="odd">
-          <p className="text-[#212c4f]">Best Agency</p>
-          <p className="text-4xl font-bold md:text-5xl">
+          <div className="text-[#212c4f]">Best Agency</div>
+          <div className="text-4xl font-bold md:text-5xl">
             <p className="mt-6">
               <span className="red">AI</span>mantra Work
             </p>
             <p className="blue mt-8">Hard to Exceed</p>
             <p className="blue mt-8">Your Goals.</p>
-          </p>
+          </div>
           <p className="mt-8 max-w-[60ch] text-sm font-light leading-10 text-[#02073E]">
             We Provides Constantly Our Best Services & Solution For Our Clients.
             the victory of the managments that supplies best design system
             guidelines ever.
           </p>
-          <div className="mt-6 flex  gap-6">
+          <div className="mt-6 flex gap-6">
             <button className="start-button shadow-2xl">
               Get Started <img src={rightArrow} alt="Started" />
             </button>
