@@ -24,7 +24,9 @@ const SubHero = () => {
         </div>
         <div className="even">
           <p className="blue">About our work</p>
-          <h1 className="my-4 text-2xl">Creativity&Innovation</h1>
+          <h1 className="main-header my-4 text-2xl">
+            Creativity&nbsp;&&nbsp;Innovation
+          </h1>
           <p className="max-w-[50ch] leading-8">
             Aimantra Solution is a result-oriented IT company in India and USA.
             With a team of top talanted people who are driven to give you the

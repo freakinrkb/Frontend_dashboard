@@ -4,6 +4,9 @@
 .blue {
   color: #0066b2;
 }
+.main-header {
+  font-family: Arvo, sans-serif;
+}
 .start-button {
   padding: 5px 15px;
   display: flex;
