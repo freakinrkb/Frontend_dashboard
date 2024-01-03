@@ -3,13 +3,6 @@ li,
 h1 {
   color: #343d48;
 }
-p,
-ul {
-  font-family: "DM Sans", sans-serif;
-}
-h1 {
-  font-family: "Arvo", serif;
-}
 
 .start-button {
   padding: 5px 15px;

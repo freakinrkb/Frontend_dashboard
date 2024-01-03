@@ -11,8 +11,8 @@ const Hero = () => {
     <section className="bg-[hsl(210,50%,96%)] py-16">
       <div className="two-col container">
         <div className="odd">
-          <div className="text-[#212c4f]">Best Agency</div>
-          <div className="text-4xl font-bold md:text-5xl">
+          {/* <div className="text-[#212c4f]">Best Agency</div> */}
+          <div className="main-header text-4xl font-bold md:text-5xl">
             <p className="mt-6">
               <span className="red">AI</span>mantra Work&nbsp;
               <span className="blue">Hard</span>
