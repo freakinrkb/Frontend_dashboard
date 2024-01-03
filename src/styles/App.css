@@ -1,6 +1,5 @@
 body {
   font-family: "DM Sans", sans-serif;
-  font-family: "Arvo", serif;
 }
 p {
   color: #343d48;
@@ -16,6 +15,15 @@ a {
   @apply grid gap-6 md:grid-cols-2;
 }
 
-.three-col {
-  @apply grid;
+.fade-in-out {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-out {
+  opacity: 0;
+}
+
+.fade-in {
+  opacity: 1;
 }

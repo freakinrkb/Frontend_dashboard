@@ -1,7 +1,7 @@
 import Hero from "@components/Home/Hero";
 import SubHero from "@components/Home/SubHero";
 import Expertise from "@components/Home/Expertise";
-import Technologies from "@components/Home/Technologies";
+import Domains from "@components/Home/Domains";
 import Counts from "@components/Home/Counts";
 import Motto from "@components/Home/Motto";
 import ClientFeedback from "@components/Home/ClientFeedback";
@@ -15,7 +15,7 @@ const Home = () => {
 
       {/* Expertise Section */}
       <Expertise />
-      <Technologies />
+      <Domains />
 
       {/* Stats Section */}
       <Counts />
