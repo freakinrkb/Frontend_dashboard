@@ -35,6 +35,7 @@ const Expertise = () => {
       iconPath: Ios,
       accent: "#90A7BB",
       title: "IOS",
+      size: "h-10",
     },
     {
       iconPath: Node,
@@ -74,6 +75,7 @@ const Expertise = () => {
               accent={item.accent}
               title={item.title}
               iconPath={item.iconPath}
+              size={item.size}
             />
           ))}
         </div>
