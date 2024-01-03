@@ -14,8 +14,8 @@ const Home = () => {
       <SubHero />
 
       {/* Expertise Section */}
-      <Expertise />
       <Domains />
+      <Expertise />
 
       {/* Stats Section */}
       <Counts />
