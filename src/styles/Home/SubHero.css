@@ -1,0 +1,27 @@
+ul,
+li,
+h1 {
+  color: #343d48;
+}
+p,
+ul {
+  font-family: "DM Sans", sans-serif;
+}
+h1 {
+  font-family: "Arvo", serif;
+}
+
+.start-button {
+  padding: 5px 15px;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 30px;
+  gap: 5px;
+  background-color: #990000;
+  color: white;
+}
+.start-button img {
+  height: 20px;
+  width: 20px;
+}

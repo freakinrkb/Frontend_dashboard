@@ -14,9 +14,10 @@ const Hero = () => {
           <div className="text-[#212c4f]">Best Agency</div>
           <div className="text-4xl font-bold md:text-5xl">
             <p className="mt-6">
-              <span className="red">AI</span>mantra Work
+              <span className="red">AI</span>mantra Work&nbsp;
+              <span className="blue">Hard</span>
             </p>
-            <p className="blue mt-8">Hard to Exceed</p>
+            <p className="blue mt-8">to Exceed</p>
             <p className="blue mt-8">Your Goals.</p>
           </div>
           <p className="mt-8 max-w-[60ch] text-sm font-light leading-10 text-[#02073E]">
@@ -28,13 +29,13 @@ const Hero = () => {
             <button className="start-button shadow-2xl">
               Get Started <img src={rightArrow} alt="Started" />
             </button>
-            <div className="video-button">
+            <div className="video-button hidden md:flex">
               Watch Video
               <img className="" src={videoIcon} alt="video" />
             </div>
           </div>
         </div>
-        <div className="even relative flex justify-end">
+        <div className="even relative hidden justify-end md:flex">
           <img className="max-h-[35rem]" src={heroTexting} alt="hero-image" />
           <img
             className="left-0 top-[10rem] hidden xl:absolute xl:block"

@@ -2,7 +2,9 @@ body {
   font-family: "DM Sans", sans-serif;
   font-family: "Arvo", serif;
 }
-
+p {
+  color: #343d48;
+}
 a {
   text-decoration: none;
 }
