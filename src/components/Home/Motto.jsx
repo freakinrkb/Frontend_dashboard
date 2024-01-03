@@ -1,7 +1,5 @@
-import React from "react";
-
 const Motto = () => {
-  return <div>Motto</div>;
+  return <div></div>;
 };
 
 export default Motto;
