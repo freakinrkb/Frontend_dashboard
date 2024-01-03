@@ -1,7 +1,5 @@
-import React from "react";
-
 const ClientFeedback = () => {
-  return <div>ClientFeedback</div>;
+  return <div></div>;
 };
 
 export default ClientFeedback;

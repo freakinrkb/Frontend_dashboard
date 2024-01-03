@@ -12,42 +12,42 @@ const Domains = () => {
   const [current, setCurrent] = useState(0);
   const domainData = [
     {
-      src: "icon",
+      src: icon,
       title: "Web Design",
       description:
         "Our ability to always exceed the expectations of our clients and produce the most creative output",
       linkto: "#",
     },
     {
-      src: "icon2",
+      src: icon2,
       title: "Web Development",
       description:
         "Our ability to always exceed the expectations of our clients and produce the most creative output",
       linkto: "#",
     },
     {
-      src: "icon3",
+      src: icon3,
       title: "Digital Marketing",
       description:
         "Our ability to always exceed the expectations of our clients and produce the most creative output",
       linkto: "#",
     },
     {
-      src: "icon4",
+      src: icon4,
       title: "Android Development",
       description:
         "Our ability to always exceed the expectations of our clients and produce the most creative output",
       linkto: "#",
     },
     {
-      src: "icon5",
+      src: icon5,
       title: "UI/UX Designer",
       description:
         "Our ability to always exceed the expectations of our clients and produce the most creative output",
       linkto: "#",
     },
     {
-      src: "icon6",
+      src: icon6,
       title: "iOS Development",
       description:
         "Our ability to always exceed the expectations of our clients and produce the most creative output",
@@ -86,8 +86,9 @@ const Domains = () => {
             title={domainData[current].title}
             description={domainData[current].description}
             linkto={domainData[current].linkto}
-            additionalClass={`bg-white fade-in-out${isMounted ? " fade-in" : " fade-out"
-              }`}
+            additionalClass={`bg-white fade-in-out${
+              isMounted ? " fade-in" : " fade-out"
+            }`}
           />
         </div>
       </div>
