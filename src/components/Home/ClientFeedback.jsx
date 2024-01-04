@@ -1,4 +1,5 @@
 import React from "react";
+import '@styles/Home/ClientFeedback.css';
 import img1 from "@assets/Picture.png";
 import img2 from "@assets/Picture (1).png";
 import img3 from "@assets/Picture (2).png";
@@ -18,7 +19,7 @@ const ClientFeedback = () => {
         </div>
         <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 pb-8 pt-5">
           <div className="flex flex-col items-center">
-            <div className="shadow-lg p-6 rounded-lg text-center">
+            <div className="custom-shadow p-6 rounded-lg text-center">
               <div className=" leading-[32px] text-[#2576BC] text-2xl">
                 Efficient Collaborating
               </div>
@@ -28,7 +29,8 @@ const ClientFeedback = () => {
                 veniam consequat sunt nostrud amet.
               </div>
             </div>
-            <div className=" text-center pt-8">
+              <div className="clip-triangle"></div>
+            <div className=" text-center pt-4">
               <div className="">
                 <img 
                 className="overflow-hidden rounded-[50%] mx-auto "
@@ -42,7 +44,7 @@ const ClientFeedback = () => {
             </div>
           </div>
           <div className="flex flex-col items-center">
-            <div className="shadow-lg p-6 rounded-lg text-center">
+            <div className="custom-shadow p-6 rounded-lg text-center">
               <div className=" leading-[32px] text-[#2576BC] text-2xl">
                 Efficient Collaborating
               </div>
@@ -52,7 +54,8 @@ const ClientFeedback = () => {
                 veniam consequat sunt nostrud amet.
               </div>
             </div>
-            <div className=" text-center pt-8">
+            <div className="clip-triangle"></div>
+            <div className=" text-center pt-4">
               <div className="">
                 <img 
                 className="overflow-hidden rounded-[50%] mx-auto "
@@ -66,7 +69,7 @@ const ClientFeedback = () => {
             </div>
           </div>
           <div className="flex flex-col items-center">
-            <div className="shadow-lg p-6 rounded-lg text-center">
+            <div className="custom-shadow p-6 rounded-lg text-center">
               <div className=" leading-[32px] text-[#2576BC] text-2xl">
                 Efficient Collaborating
               </div>
@@ -76,7 +79,8 @@ const ClientFeedback = () => {
                 veniam consequat sunt nostrud amet.
               </div>
             </div>
-            <div className=" text-center pt-8">
+            <div className="clip-triangle"></div>
+            <div className=" text-center pt-4">
               <div className="">
                 <img 
                 className="overflow-hidden rounded-[50%] mx-auto "
