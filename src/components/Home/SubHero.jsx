@@ -6,7 +6,7 @@ import "@styles/Home/SubHero.css";
 const SubHero = () => {
   return (
     <section className="">
-      <div className="two-col container py-8">
+      <div className="two-col container py-10">
         <div className="odd relative flex items-center justify-center pr-16">
           <img
             className="absolute left-0 top-0 -z-10"
