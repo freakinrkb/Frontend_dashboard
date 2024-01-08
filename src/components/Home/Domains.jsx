@@ -63,9 +63,17 @@ const Domains = () => {
   }, []);
 
   const cardCount = domainData.length;
-  console.log(current, cardCount);
+  // console.log(current, cardCount);
   return (
-    <section className="bg-[hsl(210,50%,96%)] py-6">
+    <section className="bg-[hsl(210,50%,96%)] py-10">
+      <div className="container">
+        <div className="flex flex-col justify-center">
+          <p className="blue flex justify-center">Get in Touch</p>
+          <h1 className="main-header my-4 mb-16 flex justify-center text-2xl font-bold">
+            We have 25 years of Experinece in IT Solution
+          </h1>
+        </div>
+      </div>
       <div className="container flex justify-center">
         <div className="card-wrapper hidden md:grid md:grid-cols-2 lg:grid-cols-3">
           {domainData.map((domain, index) => (

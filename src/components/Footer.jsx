@@ -12,8 +12,8 @@ import Linkedin from "@assets/linkedin.svg";
 
 const Footer = () => {
   return (
-    <section className={`py-6`}>
-      <div className={`wrapper bg-[url('${FooterBack}')})] bg-cover`}>
+    <section className={`py-10`}>
+      <div className={`wrapper bg-cover`}>
         <div className="container relative">
           <div className="flex flex-col justify-center">
             <p className="blue flex justify-center">Get in Touch</p>
