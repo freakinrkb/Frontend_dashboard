@@ -19,7 +19,7 @@ const Home = () => {
 
       {/* Stats Section */}
       <Counts />
-      <Motto />
+      {/* <Motto /> */}
       <ClientFeedback />
     </main>
   );

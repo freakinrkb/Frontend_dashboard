@@ -55,7 +55,7 @@ const Expertise = () => {
   ];
 
   return (
-    <section className="py-8">
+    <section className="py-10">
       <div className="container">
         <div className="flex flex-col items-center pb-8">
           <div className="text-1xl text-[#4750EB]">Expertise</div>
