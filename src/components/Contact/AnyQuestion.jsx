@@ -1,3 +1,7 @@
+import React from "react";
+import call from "@assets/call.png";
+import email from "@assets/mail.png";
+import location from "@assets/location.png";
 const AnyQuestion = () => {
   return (
     <section className="p-6">
@@ -18,28 +22,34 @@ const AnyQuestion = () => {
               We offer high quality IT Services for your project, contact us or
               visit us today for more information
             </div>
-            <div className="py-6">
-              <img className=" object-cover" alt="" src="/frame-2@2x.png" />
-              <div className=" text-left text-3xl font-medium leading-[32px]">
-                Call
+            <div className="py-6 flex">
+              <img className="w-10 h-10" alt="" src={call} />
+              <div className="pl-5">
+                <div className=" text-left text-3xl font-medium leading-[32px]">
+                  Call
+                </div>
+                <div className="opacity-[0.5] text-1xl">+91 9986512166</div>
               </div>
-              <div className="opacity-[0.5]">+91 9986512166</div>
             </div>
-            <div className="py-6">
-            <img className=" object-cover" alt="" src="/frame-3@2x.png" />
-              <div className=" text-left text-3xl font-medium leading-[32px]">
-                Email
+            <div className="py-6 flex">
+              <img className="w-10 h-10" alt="" src={email} />
+              <div className="pl-5">
+                <div className=" text-left text-3xl font-medium leading-[32px]">
+                  Email
+                </div>
+                <div className=" opacity-[0.5]">info@ipixxel.com</div>
               </div>
-              <div className=" opacity-[0.5]">info@ipixxel.com</div>
             </div>
-            <div className=" text-xl">
-              <img className=" object-cover" alt="" src="/frame-4@2x.png" />
-              <div className=" text-3xl font-medium leading-[32px]">Location</div>
-              <div className="text-lg font-medium opacity-[0.5]">
-                <p className="m-0">Office One, 2nd Floor,</p>
-                <p className="m-0">Unit: S-1111,</p>
-                <p className="m-0">XYS main ROAD,</p>
-                <p className="m-0">Bengaluru, Karnataka 560048.</p>
+            <div className=" text-xl flex">
+              <img className="w-10 h-10" alt="" src={location} />
+              <div className="pl-5">
+                <div className=" text-3xl font-medium leading-[32px]">Location</div>
+                <div className="pt-4 text-lg font-medium opacity-[0.5]">
+                  <p className="m-0">Office One, 2nd Floor,</p>
+                  <p className="m-0">Unit: S-1111,</p>
+                  <p className="m-0">XYS main ROAD,</p>
+                  <p className="m-0">Bengaluru, Karnataka 560048.</p>
+                </div>
               </div>
             </div>
           </div>
