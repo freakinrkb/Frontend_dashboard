@@ -6,7 +6,9 @@ const Hero = () => {
         <div className="odd">
           {/* <div className="text-[#212c4f]">Best Agency</div> */}
           <div className="main-header text-4xl font-bold md:text-5xl">
-            <p className="blue mt-8">Got a</p>
+            <p className="red mt-8">
+              Got&nbsp;<span className="text-black">a</span>
+            </p>
             <p className="blue mt-8">Question?</p>
           </div>
           <p className="mt-8 max-w-[60ch] text-sm font-light leading-10 text-[#02073E]">
