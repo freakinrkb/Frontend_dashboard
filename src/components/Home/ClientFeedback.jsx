@@ -1,3 +1,4 @@
+import React from "react";
 import img1 from "@assets/Picture.png";
 import img2 from "@assets/Picture (1).png";
 import img3 from "@assets/Picture (2).png";
@@ -17,8 +18,8 @@ const ClientFeedback = () => {
         </div>
         <div className="grid grid-cols-1 gap-8 pb-8 pt-5 sm:grid-cols-2 md:grid-cols-3">
           <div className="flex flex-col items-center">
-            <div className="rounded-lg p-6 text-center shadow-lg">
-              <div className=" text-2xl leading-[32px] text-[#2576BC]">
+            <div className="shadow-lg p-6 rounded-lg text-center">
+              <div className=" leading-[32px] text-[#2576BC] text-2xl">
                 Efficient Collaborating
               </div>
               <div className=" text-darkslateblue inline-block py-4 text-sm leading-[160.28%]">
@@ -27,7 +28,7 @@ const ClientFeedback = () => {
                 Exercitation veniam consequat sunt nostrud amet.
               </div>
             </div>
-            <div className=" pt-8 text-center">
+            <div className=" text-center pt-8">
               <div className="">
                 <img
                   className="mx-auto overflow-hidden rounded-[50%] "
@@ -42,8 +43,8 @@ const ClientFeedback = () => {
             </div>
           </div>
           <div className="flex flex-col items-center">
-            <div className="rounded-lg p-6 text-center shadow-lg">
-              <div className=" text-2xl leading-[32px] text-[#2576BC]">
+            <div className="shadow-lg p-6 rounded-lg text-center">
+              <div className=" leading-[32px] text-[#2576BC] text-2xl">
                 Efficient Collaborating
               </div>
               <div className=" text-darkslateblue inline-block py-4 text-sm leading-[160.28%]">
@@ -52,7 +53,7 @@ const ClientFeedback = () => {
                 Exercitation veniam consequat sunt nostrud amet.
               </div>
             </div>
-            <div className=" pt-8 text-center">
+            <div className=" text-center pt-8">
               <div className="">
                 <img
                   className="mx-auto overflow-hidden rounded-[50%] "
@@ -67,8 +68,8 @@ const ClientFeedback = () => {
             </div>
           </div>
           <div className="flex flex-col items-center">
-            <div className="rounded-lg p-6 text-center shadow-lg">
-              <div className=" text-2xl leading-[32px] text-[#2576BC]">
+            <div className="shadow-lg p-6 rounded-lg text-center">
+              <div className=" leading-[32px] text-[#2576BC] text-2xl">
                 Efficient Collaborating
               </div>
               <div className=" text-darkslateblue inline-block py-4 text-sm leading-[160.28%]">
@@ -77,7 +78,7 @@ const ClientFeedback = () => {
                 Exercitation veniam consequat sunt nostrud amet.
               </div>
             </div>
-            <div className=" pt-8 text-center">
+            <div className=" text-center pt-8">
               <div className="">
                 <img
                   className="mx-auto overflow-hidden rounded-[50%] "
