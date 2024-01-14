@@ -1,7 +1,11 @@
-import React from "react";
+import WeWork from "@components/Service/WeWork";
 
 const Service = () => {
-  return <div>Service</div>;
+  return (
+    <main>
+      <WeWork />
+    </main>
+  );
 };
 
 export default Service;
