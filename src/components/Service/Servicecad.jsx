@@ -1,5 +1,3 @@
-import React from "react";
-
 const Servicecad = ({ src, title, description, linkto, additionalClass }) => {
   return (
     <div

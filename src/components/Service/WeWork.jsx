@@ -1,8 +1,9 @@
-import pana from "/src/assets/mobile-inbox-pana.svg";
-import designTools from "/src/assets/design tools.svg";
-import smartphone from "/src/assets/smartphone.svg";
-import dataAnalytics from "/src/assets/data analytics.svg";
-import manageTime from "/src/assets/manage time.svg";
+import pana from "@assets/mobile-inbox-pana.svg";
+import designTools from "@assets/design tools.svg";
+import smartphone from "@assets/smartphone.svg";
+import dataAnalytics from "@assets/data analytics.svg";
+import manageTime from "@assets/manage time.svg";
+import concentric from "@assets/concentric.svg";
 const WeWork = () => {
   return (
     <section className="py-12">
@@ -10,10 +11,11 @@ const WeWork = () => {
         <div className="odd flex justify-center">
           <img className="max-h-[35rem]" src={pana} alt="pana-image" />
         </div>
-        <div className="even grid grid-cols-1 gap-4 md:grid-cols-2 md:grid-rows-2">
-          <div className="flex flex-col justify-around px-4">
+        <div className="even grid grid-cols-1 gap-4 bg-[url(/src/assets/concentric.svg)] bg-contain bg-center bg-no-repeat md:grid-cols-2 ">
+          {/* <img src={concentric} alt="" /> */}
+          <div className="flex flex-col px-4">
             <img className="w-12" src={dataAnalytics} alt="" />
-            <h3>We Access</h3>
+            <h3 className="my-4">We Access</h3>
             <p className="max-w-[40ch]">
               We do end-to-end analysis of a project's scope, scale,
               deliverables, objectives, and impacts. It also involves assessing
@@ -21,25 +23,25 @@ const WeWork = () => {
               and processes.
             </p>
           </div>
-          <div className="flex flex-col justify-around px-4">
+          <div className="flex flex-col px-4">
             <img className="w-12" src={designTools} alt="" />
-            <h3>We Design</h3>
+            <h3 className="my-4">We Design</h3>
             <p className="max-w-[40ch]">
               We design next-generation UI/UX as per the assessment and by
               considering targeted audiance
             </p>
           </div>
-          <div className="flex flex-col justify-around px-4">
+          <div className="flex flex-col px-4">
             <img className="w-12" src={smartphone} alt="" />
-            <h3>We Develop</h3>
+            <h3 className="my-4">We Develop</h3>
             <p className="max-w-[40ch]">
               We manage the end-to-end deployment of the project and monitor
               continuously for zero downtime
             </p>
           </div>
-          <div className="flex flex-col justify-around px-4">
+          <div className="flex flex-col px-4">
             <img className="w-12" src={manageTime} alt="" />
-            <h3>We Manage</h3>
+            <h3 className="my-4">We Manage</h3>
             <p className="max-w-[40ch]">
               After deploying the project successfully, we manage it completely
               to provide end-to-end support as per needed
