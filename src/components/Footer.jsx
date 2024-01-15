@@ -4,7 +4,7 @@ import Phone from "@assets/phone.svg";
 import Email from "@assets/email.svg";
 import Location from "@assets/location.svg";
 import Line from "@assets/dashed-line.svg";
-import Logo from "@assets/logo.svg";
+import Logo from "@assets/logo.png";
 import Facebook from "@assets/facebook.svg";
 import Twitter from "@assets/twitter.svg";
 import Instagram from "@assets/instagram.svg";

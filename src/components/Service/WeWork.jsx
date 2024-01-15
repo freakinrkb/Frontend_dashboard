@@ -3,7 +3,6 @@ import designTools from "@assets/design tools.svg";
 import smartphone from "@assets/smartphone.svg";
 import dataAnalytics from "@assets/data analytics.svg";
 import manageTime from "@assets/manage time.svg";
-import concentric from "@assets/concentric.svg";
 const WeWork = () => {
   return (
     <section className="py-12">
@@ -12,11 +11,10 @@ const WeWork = () => {
           <img className="max-h-[35rem]" src={pana} alt="pana-image" />
         </div>
         <div className="even grid grid-cols-1 gap-4 bg-[url(/src/assets/concentric.svg)] bg-contain bg-center bg-no-repeat md:grid-cols-2 ">
-          {/* <img src={concentric} alt="" /> */}
           <div className="flex flex-col px-4">
             <img className="w-12" src={dataAnalytics} alt="" />
             <h3 className="my-4">We Access</h3>
-            <p className="max-w-[40ch]">
+            <p>
               We do end-to-end analysis of a project's scope, scale,
               deliverables, objectives, and impacts. It also involves assessing
               the project's stakeholders, risks, timeline, and impacted groups
