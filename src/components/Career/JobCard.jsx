@@ -17,14 +17,14 @@ const JobCard = ({
         <img className="h-6 w-6" src={icon} alt="" />
         {mode}
       </div>
-      <div className="flex gap-4 text-lg">
+      <div className="flex flex-wrap gap-4 text-lg">
         <Link to={applyLink}>
-          <buttons className="start-button h-full rounded-lg px-16">
+          <buttons className="flex h-full min-w-40 items-center justify-center rounded-lg bg-[#990000] p-2 text-white">
             Apply
           </buttons>
         </Link>
         <Link to={detailsLink}>
-          <buttons className="flex h-full items-center justify-center rounded-lg border-[1px] border-black px-16">
+          <buttons className="flex h-full min-w-40 items-center justify-center rounded-lg border-[1px] border-black  p-2">
             Details
           </buttons>
         </Link>
