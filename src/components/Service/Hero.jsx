@@ -22,7 +22,7 @@ const Hero = ({ hero }) => {
       <div className='container'>
 
         <div className='flex justify-center items-center'>
-          <div className='w-3/5 px-10 pt-12'>
+          <div className='w-3/5 px-10'>
             <div className='text-3xl sm:text-4xl md:text-4xl lg:text-6xl '>
               <b> <span className='text-[#912E31]'>Maximize</span> Business Benefits out of <span className='text-[#2576BC]'>IT</span> Resources.</b>
             </div>
