@@ -1,5 +1,6 @@
 import React from 'react';
 import heroi from "@assets/servicehero.png";
+import rightArrow from "@assets/Arrow - Right Circle.png";
 import { useEffect, useState } from 'react';
 
 const Hero = ({ hero }) => {
@@ -36,9 +37,9 @@ const Hero = ({ hero }) => {
                 development services designed to help you grow your
                 business, increase your ROI, and one-up the competition.</p>
             </div>
-            <div className=''>
-              <button className='bg-[#8D3236] text-white px-8 py-4 rounded-3xl'>Know More</button>
-            </div>
+            <button className="start-button shadow-2xl py-3 px-6">
+              Know More <img src={rightArrow} alt="Started" />
+            </button>
           </div>
           {!isSmallScreen ? (
             <div className='w-full sm:w-2/5 justify-center'>

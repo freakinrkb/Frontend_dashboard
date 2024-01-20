@@ -88,7 +88,7 @@ const OurServices = () => {
           </b>
         </div>
         <div className="container flex justify-center">
-          <div className="gap-8 md:grid md:grid-cols-2 lg:grid-cols-3 ">
+          <div className="gap-16 md:grid md:grid-cols-2 lg:grid-cols-3 ">
             {domainData.map((domain, index) => (
               <Servicecad
                 key={index}

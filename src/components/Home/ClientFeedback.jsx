@@ -1,4 +1,6 @@
 import React from "react";
+import "@styles/Home/ClientFeedback.css";
+import Slider from "react-slick";
 import img1 from "@assets/Picture.png";
 import img2 from "@assets/Picture (1).png";
 import img3 from "@assets/Picture (2).png";
@@ -22,7 +24,7 @@ const ClientFeedback = () => {
               <div className=" leading-[32px] text-[#2576BC] text-2xl">
                 Efficient Collaborating
               </div>
-              <div className=" text-darkslateblue inline-block py-4 text-sm leading-[160.28%]">
+              <div className="clip-triangle  text-darkslateblue inline-block py-4 text-sm leading-[160.28%]">
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                 amet sint. Velit officia consequat duis enim velit mollit.
                 Exercitation veniam consequat sunt nostrud amet.
@@ -42,18 +44,18 @@ const ClientFeedback = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col items-center">
+          <div className="flex flex-col items-center ">
             <div className="shadow-lg p-6 rounded-lg text-center">
               <div className=" leading-[32px] text-[#2576BC] text-2xl">
                 Efficient Collaborating
               </div>
-              <div className=" text-darkslateblue inline-block py-4 text-sm leading-[160.28%]">
+              <div className="clip-triangle text-darkslateblue inline-block py-4 text-sm leading-[160.28%]">
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                 amet sint. Velit officia consequat duis enim velit mollit.
                 Exercitation veniam consequat sunt nostrud amet.
               </div>
             </div>
-            <div className=" text-center pt-8">
+            <div className="text-center pt-8">
               <div className="">
                 <img
                   className="mx-auto overflow-hidden rounded-[50%] "
@@ -72,7 +74,7 @@ const ClientFeedback = () => {
               <div className=" leading-[32px] text-[#2576BC] text-2xl">
                 Efficient Collaborating
               </div>
-              <div className=" text-darkslateblue inline-block py-4 text-sm leading-[160.28%]">
+              <div className="clip-triangle  text-darkslateblue inline-block py-4 text-sm leading-[160.28%]">
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                 amet sint. Velit officia consequat duis enim velit mollit.
                 Exercitation veniam consequat sunt nostrud amet.

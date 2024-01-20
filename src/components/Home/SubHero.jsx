@@ -36,16 +36,17 @@ const SubHero = () => {
             software that strictly meet business requirements and catering a
             wide spectrum of projects.
           </p>
-          <ul className="list-disc pl-12" type="">
+          <ul className="list-disc pl-12 pt-2" type="">
             <li className="mb-4 mt-2">Gain access to world-class talent</li>
             <li className="mb-4">Various industry leading solution</li>
             <li className="mb-4">Pocket friendly services</li>
             <li className="mb-4">350+ projects successfully delivered</li>
           </ul>
-
-          <button className="start-button py-2 shadow-2xl">
-            More Details <img src={rightArrow} alt="Started" />
-          </button>
+          <div className="pt-6">
+            <button className="start-button py-2 shadow-2xl">
+              More Details <img src={rightArrow} alt="Started" />
+            </button>
+          </div>
         </div>
       </div>
     </section>

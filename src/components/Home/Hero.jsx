@@ -11,7 +11,7 @@ const Hero = () => {
     <section className="bg-[hsl(210,50%,96%)] py-16">
       <div className="two-col container">
         <div className="odd">
-          {/* <div className="text-[#212c4f]">Best Agency</div> */}
+          <div className="text-[#212c4f] font-semibold	text-2xl">Best Agency</div>
           <div className="main-header text-4xl font-bold md:text-5xl">
             <p className="mt-6">
               <span className="red">AI</span>mantra Work&nbsp;
@@ -38,19 +38,22 @@ const Hero = () => {
         <div className="even relative hidden justify-end md:flex">
           <img className="max-h-[35rem]" src={heroTexting} alt="hero-image" />
           <img
-            className="left-0 top-[10rem] hidden xl:absolute xl:block"
+            className="left-16 top-[10rem] hidden xl:absolute xl:block"
             src={bulb}
             alt="idea"
           />
           <img
-            className="left-[10%] top-10 hidden rounded-xl shadow-xl xl:absolute xl:block"
+            className="left-12 top-10 hidden rounded-xl shadow-xl xl:absolute xl:block"
             src={chat1}
             alt="chat"
+            style={{ width: '250px', height: '70px' }}
+
           />
           <img
-            className="bottom-10 left-0 hidden rounded-xl shadow-xl xl:absolute xl:block"
+            className="bottom-10 left-12 hidden rounded-xl shadow-xl xl:absolute xl:block"
             src={chat2}
             alt="chat"
+            style={{ width: '200px', height: '70px' }}
           />
         </div>
       </div>
