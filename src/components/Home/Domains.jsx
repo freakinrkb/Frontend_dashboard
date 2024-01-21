@@ -95,7 +95,7 @@ const Domains = () => {
             description={domainData[current].description}
             linkto={domainData[current].linkto}
             additionalClass={`bg-white fade-in-out${
-              isMounted ? " fade-in" : " fade-out"
+              isMounted ? " fade-in " : " fade-out "
             }`}
           />
         </div>

@@ -1,91 +1,98 @@
-import React from 'react'
-import Servicecad from './Servicecad';
+import Servicecad from "./Servicecad";
 import icon from "@assets/icon.png";
 const OurServices = () => {
   const domainData = [
     {
       src: icon,
       title: "Web Design",
-      description: "Our ability to always exceed the expectations of our clients and produce the most creative output ",
+      description:
+        "Our ability to always exceed the expectations of our clients and produce the most creative output ",
       linkto: "#",
     },
     {
       src: icon,
       title: "Web Design",
-      description: "Our ability to always exceed the expectations of our clients and produce the most creative output ",
+      description:
+        "Our ability to always exceed the expectations of our clients and produce the most creative output ",
       linkto: "#",
     },
     {
       src: icon,
       title: "Web Design",
-      description: "Our ability to always exceed the expectations of our clients and produce the most creative output ",
+      description:
+        "Our ability to always exceed the expectations of our clients and produce the most creative output ",
       linkto: "#",
     },
     {
       src: icon,
       title: "Web Design",
-      description: "Our ability to always exceed the expectations of our clients and produce the most creative output ",
+      description:
+        "Our ability to always exceed the expectations of our clients and produce the most creative output ",
       linkto: "#",
     },
     {
       src: icon,
       title: "Web Design",
-      description: "Our ability to always exceed the expectations of our clients and produce the most creative output ",
+      description:
+        "Our ability to always exceed the expectations of our clients and produce the most creative output ",
       linkto: "#",
     },
     {
       src: icon,
       title: "Web Design",
-      description: "Our ability to always exceed the expectations of our clients and produce the most creative output ",
+      description:
+        "Our ability to always exceed the expectations of our clients and produce the most creative output ",
       linkto: "#",
     },
     {
       src: icon,
       title: "Web Design",
-      description: "Our ability to always exceed the expectations of our clients and produce the most creative output ",
+      description:
+        "Our ability to always exceed the expectations of our clients and produce the most creative output ",
       linkto: "#",
     },
     {
       src: icon,
       title: "Web Design",
-      description: "Our ability to always exceed the expectations of our clients and produce the most creative output ",
+      description:
+        "Our ability to always exceed the expectations of our clients and produce the most creative output ",
       linkto: "#",
     },
     {
       src: icon,
       title: "Web Design",
-      description: "Our ability to always exceed the expectations of our clients and produce the most creative output ",
+      description:
+        "Our ability to always exceed the expectations of our clients and produce the most creative output ",
       linkto: "#",
     },
     {
       src: icon,
       title: "Web Design",
-      description: "Our ability to always exceed the expectations of our clients and produce the most creative output ",
+      description:
+        "Our ability to always exceed the expectations of our clients and produce the most creative output ",
       linkto: "#",
     },
     {
       src: icon,
       title: "Web Design",
-      description: "Our ability to always exceed the expectations of our clients and produce the most creative output ",
+      description:
+        "Our ability to always exceed the expectations of our clients and produce the most creative output ",
       linkto: "#",
     },
     {
       src: icon,
       title: "Web Design",
-      description: "Our ability to always exceed the expectations of our clients and produce the most creative output ",
+      description:
+        "Our ability to always exceed the expectations of our clients and produce the most creative output ",
       linkto: "#",
     },
   ];
   return (
-    <section className='pt-12'>
+    <section className="pt-12">
       <div className="container">
-        <div className='text-center flex-col pb-8'>
-          <div className='text-[#4750EB] pb-4'>
-            Ideal solutions for you
-          </div>
-          <b className='text-2xl'>
-            Our  Services
-          </b>
+        <div className="flex-col pb-8 text-center">
+          <div className="pb-4 text-[#4750EB]">Ideal solutions for you</div>
+          <b className="text-2xl">Our Services</b>
         </div>
         <div className="container flex justify-center">
           <div className="gap-16 md:grid md:grid-cols-2 lg:grid-cols-3 ">
@@ -104,6 +111,6 @@ const OurServices = () => {
       </div>
     </section>
   );
-}
+};
 
-export default OurServices
+export default OurServices;

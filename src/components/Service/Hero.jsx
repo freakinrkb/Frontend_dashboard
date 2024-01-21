@@ -1,53 +1,31 @@
-import React from 'react';
-import heroi from "@assets/servicehero.png";
-import rightArrow from "@assets/Arrow - Right Circle.png";
-import { useEffect, useState } from 'react';
+import heroi from "@assets/servicehero.svg";
 
-const Hero = ({ hero }) => {
-  const [isSmallScreen, setIsSmallScreen] = useState(false);
-  useEffect(() => {
-    const handleResize = () => {
-      setIsSmallScreen(window.innerWidth <= 640);
-    }
-    handleResize();
-
-    window.addEventListener('resize', handleResize);
-
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
-
+const Hero = () => {
   return (
-    <section className='py-10 bg-[#F9FBFD]'>
-      <div className='container'>
-
-        <div className='flex justify-center items-center'>
-          <div className='w-3/5 px-10'>
-            <div className='text-3xl sm:text-4xl md:text-4xl lg:text-6xl '>
-              <b> <span className='text-[#912E31]'>Maximize</span> Business Benefits out of <span className='text-[#2576BC]'>IT</span> Resources.</b>
-            </div>
-            {isSmallScreen ? (
-              <div className='w-full sm:w-2/5 justify-center'>
-                <img src={heroi} alt='Service Hero' />
-              </div>
-            ) : null}
-            <div className='text-s sm:text-base leading-10 pt-12 pb-12'>
-              <p>AI mantra  team provides web development,Mobile Apps
-                development services designed to help you grow your
-                business, increase your ROI, and one-up the competition.</p>
-            </div>
-            <button className="start-button shadow-2xl py-3 px-6">
-              Know More <img src={rightArrow} alt="Started" />
-            </button>
+    <section className="bg-[hsl(210,50%,96%)] py-10">
+      <div className="two-col container">
+        <div className="odd">
+          {/* <div className="text-[#212c4f]">Best Agency</div> */}
+          <div className="main-header text-4xl font-bold md:text-5xl">
+            <p className="mt-6">
+              <span className="red">AI</span>mantra Work&nbsp;
+              <span className="blue">Hard</span>
+            </p>
+            <p className="blue mt-8">to Exceed</p>
+            <p className="blue mt-8">Your Goals.</p>
           </div>
-          {!isSmallScreen ? (
-            <div className='w-full sm:w-2/5 justify-center'>
-              <img src={heroi} alt='Service Hero' />
-            </div>
-          ) : null}
+          <p className="mt-8 max-w-[60ch] text-sm font-light leading-10 text-[#02073E]">
+            We Provides Constantly Our Best Services & Solution For Our Clients.
+            the victory of the managments that supplies best design system
+            guidelines ever.
+          </p>
+          <div className="mt-6 flex gap-6">
+            <button className="start-button shadow-2xl">Know More</button>
+          </div>
         </div>
-
+        <div className="even relative hidden justify-end md:flex">
+          <img className="max-h-[35rem]" src={heroi} alt="hero-image" />
+        </div>
       </div>
     </section>
   );

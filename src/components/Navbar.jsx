@@ -1,4 +1,4 @@
-import Logo from "@assets/logo.svg";
+import Logo from "@assets/logo.png";
 import Hamburger from "@assets/hamburger.svg";
 import "@styles/Navbar.css";
 
