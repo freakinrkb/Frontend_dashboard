@@ -2,7 +2,7 @@ import React from 'react'
 
 const QualitiesCard = ({ title, description, imagePath }) => {
     return (
-            <div className="shadow-[0px_3px_5px_rgba(0,_0,_0,_0.1)] flex p-4 ">
+            <div className="shadow-[0px_1px_1px_rgba(0,_0,_0,_0.1)] flex p-4 ">
                 <img
                     className="w-12 h-12"
                     alt=""

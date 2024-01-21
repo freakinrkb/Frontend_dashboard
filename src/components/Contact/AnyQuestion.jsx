@@ -22,7 +22,7 @@ const AnyQuestion = () => {
               We offer high quality IT Services for your project, contact us or
               visit us today for more information
             </div>
-            <div className="py-6 flex">
+            <div className="py-5 flex">
               <img className="w-10 h-10" alt="" src={call} />
               <div className="pl-5">
                 <div className=" text-left text-3xl font-medium leading-[32px]">
@@ -41,7 +41,7 @@ const AnyQuestion = () => {
               </div>
             </div>
             <div className=" text-xl flex">
-              <img className="w-10 h-10" alt="" src={location} />
+              <img className="w-9 h-9" alt="" src={location} />
               <div className="pl-5">
                 <div className=" text-3xl font-medium leading-[32px]">Location</div>
                 <div className="pt-4 text-lg font-medium opacity-[0.5]">

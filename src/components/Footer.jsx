@@ -56,6 +56,20 @@ const Footer = () => {
                   WE’RE HERE TO HELP
                 </h4>
                 <div className="grid grid-cols-2">
+                  <div className="address p-4">
+                    <div className="flex max-w-10 items-center justify-center rounded-full bg-gray-500 p-3 shadow-lg">
+                      <img className="w-8" src={Location} alt="email" />
+                    </div>
+                    <h4 className="blue my-2 font-bold text-sky-600">
+                      Location
+                    </h4>
+                    <ul>
+                      <li className="">Office One, 2nd Floor,</li>
+                      <li className="">Unit: S-1111,</li>
+                      <li className="">XYS main ROAD,</li>
+                      <li>XYS main ROAD, </li>
+                    </ul>
+                  </div>
                   <div className="flex flex-col">
                     <div className="phone p-4">
                       <div className="flex max-w-10 items-center justify-center rounded-full bg-gray-500 p-3 shadow-lg">
@@ -79,20 +93,6 @@ const Footer = () => {
                         <li className="">Web Development</li>
                       </ul>
                     </div>
-                  </div>
-                  <div className="address p-4">
-                    <div className="flex max-w-10 items-center justify-center rounded-full bg-gray-500 p-3 shadow-lg">
-                      <img className="w-8" src={Location} alt="email" />
-                    </div>
-                    <h4 className="blue my-2 font-bold text-sky-600">
-                      Location
-                    </h4>
-                    <ul>
-                      <li className="">Office One, 2nd Floor,</li>
-                      <li className="">Unit: S-1111,</li>
-                      <li className="">XYS main ROAD,</li>
-                      <li>XYS main ROAD, </li>
-                    </ul>
                   </div>
                 </div>
               </div>
