@@ -29,6 +29,25 @@ a {
   transition: opacity 0.5s ease-in-out;
 }
 
+.scroll-container {
+  display: flex;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS devices */
+
+  /* Hide scrollbar for webkit browsers (Chrome, Safari) */
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+
+/* Hide scrollbar for Firefox */
+.scroll-container::-webkit-scrollbar {
+  width: 12px;
+}
+
+.scroll-container::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
 .fade-out {
   opacity: 0;
 }

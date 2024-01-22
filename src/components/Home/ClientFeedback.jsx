@@ -1,8 +1,22 @@
 import "@styles/Home/ClientFeedback.css";
+import { useEffect } from "react";
 import img1 from "@assets/Picture.png";
 import img2 from "@assets/Picture (1).png";
 import img3 from "@assets/Picture (2).png";
+import scrollDots from "@assets/scroll-dots.svg";
 const ClientFeedback = () => {
+  const centerScroll = () => {
+    const container = document.querySelector(".scroll-container");
+    if (container) {
+      const scrollLeft = (container.scrollWidth - container.clientWidth) / 2;
+      container.scrollLeft = scrollLeft;
+    }
+  };
+
+  // Call the centerScroll function when the component mounts
+  useEffect(() => {
+    centerScroll();
+  }, []);
   return (
     <section className="py-10">
       <div className="container">
@@ -16,13 +30,13 @@ const ClientFeedback = () => {
             </b>
           </div>
         </div>
-        <div className="grid grid-cols-1 gap-8 pb-8 pt-5 sm:grid-cols-2 md:grid-cols-3">
-          <div className="flex flex-col items-center">
+        <div className="scroll-container gap-4 overflow-x-auto">
+          <div className="flex min-w-[min(25rem,100%)] flex-grow flex-col items-center">
             <div className="rounded-lg p-6 text-center shadow-lg">
               <div className=" text-2xl leading-[32px] text-[#2576BC]">
                 Efficient Collaborating
               </div>
-              <div className="clip-triangle  text-darkslateblue inline-block py-4 text-sm leading-[160.28%]">
+              <div className="clip-triangle  text-darkslateblue inline-block py-4 text-sm ">
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                 amet sint. Velit officia consequat duis enim velit mollit.
                 Exercitation veniam consequat sunt nostrud amet.
@@ -42,12 +56,12 @@ const ClientFeedback = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col items-center ">
+          <div className="flex min-w-[min(25rem,100%)] flex-grow flex-col items-center ">
             <div className="rounded-lg p-6 text-center shadow-lg">
               <div className=" text-2xl leading-[32px] text-[#2576BC]">
                 Efficient Collaborating
               </div>
-              <div className="clip-triangle text-darkslateblue inline-block py-4 text-sm leading-[160.28%]">
+              <div className="clip-triangle text-darkslateblue inline-block py-4 text-sm ">
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                 amet sint. Velit officia consequat duis enim velit mollit.
                 Exercitation veniam consequat sunt nostrud amet.
@@ -67,12 +81,12 @@ const ClientFeedback = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col items-center">
+          <div className="flex min-w-[min(25rem,100%)] flex-grow flex-col items-center">
             <div className="rounded-lg p-6 text-center shadow-lg">
               <div className=" text-2xl leading-[32px] text-[#2576BC]">
                 Efficient Collaborating
               </div>
-              <div className="clip-triangle  text-darkslateblue inline-block py-4 text-sm leading-[160.28%]">
+              <div className="clip-triangle  text-darkslateblue inline-block py-4 text-sm ">
                 Amet minim mollit non deserunt ullamco est sit aliqua dolor do
                 amet sint. Velit officia consequat duis enim velit mollit.
                 Exercitation veniam consequat sunt nostrud amet.
@@ -92,6 +106,9 @@ const ClientFeedback = () => {
               </div>
             </div>
           </div>
+        </div>
+        <div className="my-16 flex items-center justify-center">
+          <img src={scrollDots} alt="" />
         </div>
       </div>
     </section>
