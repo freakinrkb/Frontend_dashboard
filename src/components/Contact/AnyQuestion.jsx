@@ -7,7 +7,7 @@ const AnyQuestion = () => {
     <section className="mb-28 mt-14 p-6">
       <div className="  font-arvo container pb-6 text-center">
         <div className="font-dm-sans pb-4 text-xl font-medium leading-[40px] text-[#4750EB]">
-          contact
+          Contact
         </div>
         <b className=" text-3xl leading-[10px] tracking-[-0.5px]">
           Any Question
@@ -28,7 +28,7 @@ const AnyQuestion = () => {
               <div className=" text-left text-3xl font-medium leading-[32px]">
                 Call
               </div>
-              <div className="text-1xl opacity-[0.5]">+91 xxxxxxxx</div>
+              <div className="text-1xl opacity-[0.5]">+91 9882641949</div>
             </div>
           </div>
           <div className="flex py-6">
@@ -37,7 +37,7 @@ const AnyQuestion = () => {
               <div className=" text-left text-3xl font-medium leading-[32px]">
                 Email
               </div>
-              <div className=" opacity-[0.5]">info@aimantra.com</div>
+              <div className=" opacity-[0.5]">abhishek@aimantra.com</div>
             </div>
           </div>
           <div className=" flex text-xl">
@@ -47,10 +47,10 @@ const AnyQuestion = () => {
                 Location
               </div>
               <div className="pt-4 text-lg font-medium opacity-[0.5]">
-                <p className="m-0">Office One, 2nd Floor,</p>
-                <p className="m-0">Unit: S-1111,</p>
-                <p className="m-0">XYS main ROAD,</p>
-                <p className="m-0">Bengaluru, Karnataka 560048.</p>
+                <p className="">Dwarka Expressway,</p>
+                <p> DLF Corporate greens,</p>
+                <p className=""> 3rd Floor Tower 3, Sec 74A, </p>
+                <p className="">Gurugram, Haryana 122004,</p>
               </div>
             </div>
           </div>

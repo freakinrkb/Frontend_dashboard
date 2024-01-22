@@ -5,6 +5,7 @@ import heroTexting from "@assets/hero-texting.png";
 import bulb from "@assets/bulb.svg";
 import backChat from "@assets/backChat.svg";
 import curlyArrow from "@assets/curlyArrow.svg";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -28,9 +29,11 @@ const Hero = () => {
             guidelines ever.
           </p>
           <div className="mt-6 flex gap-6">
-            <button className="start-button shadow-2xl">
-              Get Started <img src={rightArrow} alt="Started" />
-            </button>
+            <Link to="/career">
+              <button className="start-button shadow-2xl">
+                Get Started <img src={rightArrow} alt="Started" />
+              </button>
+            </Link>
             <div className="video-button hidden md:flex">
               Watch Video
               <img className="" src={videoIcon} alt="video" />

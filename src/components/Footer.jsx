@@ -73,10 +73,10 @@ const Footer = () => {
                       Location
                     </h4>
                     <ul>
-                      <li className="">Office One, 2nd Floor,</li>
-                      <li className="">Unit: S-1111,</li>
-                      <li className="">XYS main ROAD,</li>
-                      <li>XYS main ROAD, </li>
+                      <li className="">Dwarka Expressway,</li>
+                      <li> DLF Corporate greens,</li>
+                      <li className="">3rd Floor Tower 3, Sec 74A,</li>
+                      <li className="">Gurugram, Haryana 122004, IN</li>
                     </ul>
                   </div>
                   <div className="flex flex-col">
@@ -88,7 +88,7 @@ const Footer = () => {
                         Contact Us
                       </h4>
                       <ul>
-                        <li className="">Web Development</li>
+                        <li className="">+91&nbsp;9882641949</li>
                       </ul>
                     </div>
                     <div className="email p-4">
@@ -99,7 +99,7 @@ const Footer = () => {
                         Business Email
                       </h4>
                       <ul>
-                        <li className="">Web Development</li>
+                        <li className="">abhishek@aimantra.com</li>
                       </ul>
                     </div>
                   </div>
@@ -122,18 +122,26 @@ const Footer = () => {
               &copy;&nbsp;2023 AI mantra. ALL RIGHTS RESERVED.
             </div>
             <div className="social flex gap-4">
-              <div className="flex max-w-10 items-center justify-center rounded-full bg-sky-600 p-3 shadow-lg">
-                <img className="w-8" src={Facebook} alt="email" />
-              </div>
-              <div className="flex max-w-10 items-center justify-center rounded-full bg-sky-600 p-3 shadow-lg">
-                <img className="w-8" src={Instagram} alt="email" />
-              </div>
-              <div className="flex max-w-10 items-center justify-center rounded-full bg-sky-600 p-3 shadow-lg">
-                <img className="w-8" src={Twitter} alt="email" />
-              </div>
-              <div className="flex max-w-10 items-center justify-center rounded-full bg-sky-600 p-3 shadow-lg">
-                <img className="w-8" src={Linkedin} alt="email" />
-              </div>
+              <Link to="">
+                <div className="flex max-w-10 items-center justify-center rounded-full bg-sky-600 p-3 shadow-lg">
+                  <img className="w-8" src={Facebook} alt="email" />
+                </div>
+              </Link>
+              <Link to="">
+                <div className="flex max-w-10 items-center justify-center rounded-full bg-sky-600 p-3 shadow-lg">
+                  <img className="w-8" src={Instagram} alt="email" />
+                </div>
+              </Link>
+              <Link to="">
+                <div className="flex max-w-10 items-center justify-center rounded-full bg-sky-600 p-3 shadow-lg">
+                  <img className="w-8" src={Twitter} alt="email" />
+                </div>
+              </Link>
+              <Link to="https://www.linkedin.com/company/aimantra/">
+                <div className="flex max-w-10 items-center justify-center rounded-full bg-sky-600 p-3 shadow-lg">
+                  <img className="w-8" src={Linkedin} alt="email" />
+                </div>
+              </Link>
             </div>
           </div>
           <img className="w-full" src={Line} alt="" />

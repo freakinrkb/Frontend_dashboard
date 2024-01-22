@@ -4,7 +4,7 @@ const OurServices = () => {
   const domainData = [
     {
       src: icon,
-      title: "Web Design",
+      title: "Web Development",
       description:
         "Our ability to always exceed the expectations of our clients and produce the most creative output ",
       linkto: "#",
@@ -18,70 +18,49 @@ const OurServices = () => {
     },
     {
       src: icon,
-      title: "Web Design",
+      title: "Marketing",
       description:
         "Our ability to always exceed the expectations of our clients and produce the most creative output ",
       linkto: "#",
     },
     {
       src: icon,
-      title: "Web Design",
+      title: "Android Development",
       description:
         "Our ability to always exceed the expectations of our clients and produce the most creative output ",
       linkto: "#",
     },
     {
       src: icon,
-      title: "Web Design",
+      title: "IOS Development",
       description:
         "Our ability to always exceed the expectations of our clients and produce the most creative output ",
       linkto: "#",
     },
     {
       src: icon,
-      title: "Web Design",
+      title: "UI/UX Design",
       description:
         "Our ability to always exceed the expectations of our clients and produce the most creative output ",
       linkto: "#",
     },
     {
       src: icon,
-      title: "Web Design",
+      title: "AI Development",
       description:
         "Our ability to always exceed the expectations of our clients and produce the most creative output ",
       linkto: "#",
     },
     {
       src: icon,
-      title: "Web Design",
+      title: "Blockchain Development",
       description:
         "Our ability to always exceed the expectations of our clients and produce the most creative output ",
       linkto: "#",
     },
     {
       src: icon,
-      title: "Web Design",
-      description:
-        "Our ability to always exceed the expectations of our clients and produce the most creative output ",
-      linkto: "#",
-    },
-    {
-      src: icon,
-      title: "Web Design",
-      description:
-        "Our ability to always exceed the expectations of our clients and produce the most creative output ",
-      linkto: "#",
-    },
-    {
-      src: icon,
-      title: "Web Design",
-      description:
-        "Our ability to always exceed the expectations of our clients and produce the most creative output ",
-      linkto: "#",
-    },
-    {
-      src: icon,
-      title: "Web Design",
+      title: "Web3 Development",
       description:
         "Our ability to always exceed the expectations of our clients and produce the most creative output ",
       linkto: "#",

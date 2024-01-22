@@ -1,6 +1,6 @@
 import rightArrow from "@assets/Arrow - Right Circle.png";
 import JobOpening from "@assets/Job offers-pana.svg";
-
+import { Link } from "react-router-dom";
 const Hero = () => {
   return (
     <section className="bg-[hsl(210,50%,96%)] py-16">
@@ -22,9 +22,11 @@ const Hero = () => {
             keeping your brain occupied so contact us today or apply online now!
           </p>
           <div className="mt-6 flex gap-6">
-            <button className="start-button py-2 shadow-2xl">
-              Get in Touch <img src={rightArrow} alt="Started" />
-            </button>
+            <Link to="/contact-us">
+              <button className="start-button py-2 shadow-2xl">
+                Get in Touch <img src={rightArrow} alt="Started" />
+              </button>
+            </Link>
           </div>
         </div>
         <div className="even relative flex justify-end">
