@@ -15,7 +15,7 @@ const Hero = () => {
             </p>
             <p className="mt-8 text-black">Our Team</p>
           </div>
-          <p className="mt-8 max-w-[60ch] text-sm font-light leading-10 text-[#02073E]">
+          <p className="mt-8 max-w-[60ch] text-sm  leading-10 text-[#02073E]">
             Join our Family and be a part of our great culture. We're always
             looking for talented, passionate team members who have an analytical
             mind as well! If this sounds like you then we want to hear what's

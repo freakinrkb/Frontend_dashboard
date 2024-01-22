@@ -1,4 +1,4 @@
-import Logo from "@assets/logo.png";
+import Logo from "@assets/logo.svg";
 import Hamburger from "@assets/hamburger.svg";
 import "@styles/Navbar.css";
 
@@ -58,7 +58,7 @@ const Navbar = () => {
                 Career
               </NavLink>
             </li>
-            <NavLink to="/contact-us">
+            <NavLink classname="cursor-pointer" to="/contact-us">
               <div className="rounded-full bg-[#2576BC] px-4 py-2 text-white">
                 Contact us
               </div>

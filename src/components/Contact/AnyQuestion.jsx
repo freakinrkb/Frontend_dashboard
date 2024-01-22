@@ -1,106 +1,106 @@
-import React from "react";
 import call from "@assets/call.png";
 import email from "@assets/mail.png";
 import location from "@assets/location.png";
+import tri from "@assets/tri.svg";
 const AnyQuestion = () => {
   return (
-    <section className="p-6">
-      <div className="container">
-        <div className="  font-arvo pb-6 text-center">
-          <div className="font-dm-sans pb-4 text-xl font-medium leading-[40px] text-[#4750EB]">
-            contact
-          </div>
-          <b className=" text-3xl leading-[10px] tracking-[-0.5px]">
-            Any Question
-          </b>
+    <section className="mb-28 mt-14 p-6">
+      <div className="  font-arvo container pb-6 text-center">
+        <div className="font-dm-sans pb-4 text-xl font-medium leading-[40px] text-[#4750EB]">
+          contact
         </div>
-        <div className="p-4 flex">
-          <div className="p-8 w-full h-full hidden lg:block md:flex-row">
-            <b className="text-5xl">Lets talk with our awesome team</b>
-            <img className="" alt="" src="/rectangle-7@2x.png" />
-            <div className="pt-6 pb-8 text-darkslategray-100 inline-block text-base leading-[33px]  opacity-[0.8]">
-              We offer high quality IT Services for your project, contact us or
-              visit us today for more information
-            </div>
-            <div className="py-5 flex">
-              <img className="w-10 h-10" alt="" src={call} />
-              <div className="pl-5">
-                <div className=" text-left text-3xl font-medium leading-[32px]">
-                  Call
-                </div>
-                <div className="opacity-[0.5] text-1xl">+91 9986512166</div>
+        <b className=" text-3xl leading-[10px] tracking-[-0.5px]">
+          Any Question
+        </b>
+      </div>
+      <div className="two-col container">
+        <div className="relative hidden p-8 md:block">
+          <img className="absolute -top-5 left-0 -z-10" src={tri} alt="" />
+          <b className="text-5xl">Lets talk with our awesome team</b>
+          <img className="" alt="" src="/rectangle-7@2x.png" />
+          <div className="text-darkslategray-100 inline-block pb-8 pt-6 text-base leading-[33px]  opacity-[0.8]">
+            We offer high quality IT Services for your project, contact us or
+            visit us today for more information
+          </div>
+          <div className="flex py-5">
+            <img className="h-10 w-10" alt="" src={call} />
+            <div className="pl-5">
+              <div className=" text-left text-3xl font-medium leading-[32px]">
+                Call
               </div>
+              <div className="text-1xl opacity-[0.5]">+91 xxxxxxxx</div>
             </div>
-            <div className="py-6 flex">
-              <img className="w-10 h-10" alt="" src={email} />
-              <div className="pl-5">
-                <div className=" text-left text-3xl font-medium leading-[32px]">
-                  Email
-                </div>
-                <div className=" opacity-[0.5]">info@ipixxel.com</div>
+          </div>
+          <div className="flex py-6">
+            <img className="h-10 w-10" alt="" src={email} />
+            <div className="pl-5">
+              <div className=" text-left text-3xl font-medium leading-[32px]">
+                Email
               </div>
+              <div className=" opacity-[0.5]">info@aimantra.com</div>
             </div>
-            <div className=" text-xl flex">
-              <img className="w-9 h-9" alt="" src={location} />
-              <div className="pl-5">
-                <div className=" text-3xl font-medium leading-[32px]">Location</div>
-                <div className="pt-4 text-lg font-medium opacity-[0.5]">
-                  <p className="m-0">Office One, 2nd Floor,</p>
-                  <p className="m-0">Unit: S-1111,</p>
-                  <p className="m-0">XYS main ROAD,</p>
-                  <p className="m-0">Bengaluru, Karnataka 560048.</p>
-                </div>
+          </div>
+          <div className=" flex text-xl">
+            <img className="h-9 w-9" alt="" src={location} />
+            <div className="pl-5">
+              <div className=" text-3xl font-medium leading-[32px]">
+                Location
+              </div>
+              <div className="pt-4 text-lg font-medium opacity-[0.5]">
+                <p className="m-0">Office One, 2nd Floor,</p>
+                <p className="m-0">Unit: S-1111,</p>
+                <p className="m-0">XYS main ROAD,</p>
+                <p className="m-0">Bengaluru, Karnataka 560048.</p>
               </div>
             </div>
           </div>
+        </div>
 
-          <div className="w-full h-full text-xl p-12 mx-auto max-w-screen-xl bg-[#ffffff]">
+        <div className="relative flex items-center justify-center">
+          <div className=" text-default-white max-w-[30rem] flex-grow rounded-lg p-6 text-lg shadow-[0px_2px_12px_rgba(0,_0,_0,_0.3)]">
+            <div className="input-container p-4">
+              <input
+                type="text"
+                className="w-full rounded-lg border border-none border-gray-300 bg-[rgba(37,117,187,0.05)] p-3 text-lg font-medium text-black placeholder-opacity-50 focus:border-blue-500 focus:outline-none"
+                placeholder="Full Name"
+              />
+            </div>
 
-            <div className=" text-default-white text-lg p-12 shadow-[0px_2px_12px_rgba(0,_0,_0,_0.3)]">
-              <div className="input-container p-4">
-                <input
-                  type="text"
-                  className="w-full p-3 border border-gray-300 rounded-lg text-lg font-medium text-black placeholder-opacity-50 focus:outline-none focus:border-blue-500"
-                  placeholder="Full Name"
-                />
-              </div>
+            <div className="input-container p-4">
+              <input
+                type="email"
+                className="w-full rounded-lg border border-none border-gray-300 bg-[rgba(37,117,187,0.05)] p-3 text-lg font-medium placeholder-opacity-50 focus:border-blue-500 focus:outline-none"
+                placeholder="Email Address"
+              />
+            </div>
 
-              <div className="input-container p-4">
-                <input
-                  type="email"
-                  className="w-full p-3 border border-gray-300 rounded-lg text-lg font-medium placeholder-opacity-50 focus:outline-none focus:border-blue-500"
-                  placeholder="Email Address"
-                />
-              </div>
+            <div className="input-container p-4">
+              <input
+                type="tel"
+                className="w-full rounded-lg border border-none border-gray-300 bg-[rgba(37,117,187,0.05)] p-3 text-lg font-medium placeholder-opacity-50 focus:border-blue-500 focus:outline-none"
+                placeholder="Mobile Number"
+              />
+            </div>
 
-              <div className="input-container p-4">
-                <input
-                  type="tel"
-                  className="w-full p-3 border border-gray-300 rounded-lg text-lg font-medium placeholder-opacity-50 focus:outline-none focus:border-blue-500"
-                  placeholder="Mobile Number"
-                />
-              </div>
+            <div className="input-container p-4">
+              <input
+                type="text"
+                className="w-full rounded-lg border border-none border-gray-300 bg-[rgba(37,117,187,0.05)] p-3 text-lg font-medium placeholder-opacity-50 focus:border-blue-500 focus:outline-none"
+                placeholder="Subject"
+              />
+            </div>
 
-              <div className="input-container p-4">
-                <input
-                  type="text"
-                  className="w-full p-3 border border-gray-300 rounded-lg text-lg font-medium placeholder-opacity-50 focus:outline-none focus:border-blue-500"
-                  placeholder="Subject"
-                />
-              </div>
+            <div className="input-container p-4">
+              <textarea
+                className="h-48 w-full rounded-lg border border-none border-gray-300 bg-[rgba(37,117,187,0.05)] p-3 text-lg font-medium placeholder-opacity-50 focus:border-blue-500 focus:outline-none"
+                placeholder="Message"
+              />
+            </div>
 
-              <div className="input-container p-4">
-                <textarea
-                  className="w-full p-3 border border-gray-300 rounded-lg text-lg font-medium placeholder-opacity-50 focus:outline-none focus:border-blue-500"
-                  placeholder="Message"
-                />
-              </div>
-
-              <div className="text-center">
-                <button className="bg-[#8D3236] text-white rounded-xl py-2 px-4">
-                  Send Message
-                </button>
-              </div>
+            <div className="text-center">
+              <button className="rounded-3xl bg-[#8D3236] px-4 py-2 text-white">
+                Send Message
+              </button>
             </div>
           </div>
         </div>

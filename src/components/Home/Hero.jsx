@@ -3,15 +3,17 @@ import rightArrow from "@assets/Arrow - Right Circle.png";
 import videoIcon from "@assets/video-icon.png";
 import heroTexting from "@assets/hero-texting.png";
 import bulb from "@assets/bulb.svg";
-import chat1 from "@assets/Chat1.png";
-import chat2 from "@assets/Chat2.png";
+import backChat from "@assets/backChat.svg";
+import curlyArrow from "@assets/curlyArrow.svg";
 
 const Hero = () => {
   return (
     <section className="bg-[hsl(210,50%,96%)] py-16">
       <div className="two-col container">
         <div className="odd">
-          <div className="text-[#212c4f] font-semibold	text-2xl">Best Agency</div>
+          <div className="text-2xl font-semibold	text-[#212c4f]">
+            Best Agency
+          </div>
           <div className="main-header text-4xl font-bold md:text-5xl">
             <p className="mt-6">
               <span className="red">AI</span>mantra Work&nbsp;
@@ -20,7 +22,7 @@ const Hero = () => {
             <p className="blue mt-8">to Exceed</p>
             <p className="blue mt-8">Your Goals.</p>
           </div>
-          <p className="mt-8 max-w-[60ch] text-sm font-light leading-10 text-[#02073E]">
+          <p className="mt-8 max-w-[60ch] text-sm leading-10 text-[#02073E]">
             We Provides Constantly Our Best Services & Solution For Our Clients.
             the victory of the managments that supplies best design system
             guidelines ever.
@@ -43,17 +45,14 @@ const Hero = () => {
             alt="idea"
           />
           <img
-            className="left-12 top-10 hidden rounded-xl shadow-xl xl:absolute xl:block"
-            src={chat1}
-            alt="chat"
-            style={{ width: '250px', height: '70px' }}
-
+            className=" left-0 top-10 hidden h-full xl:absolute xl:block"
+            src={backChat}
+            alt=""
           />
           <img
-            className="bottom-10 left-12 hidden rounded-xl shadow-xl xl:absolute xl:block"
-            src={chat2}
-            alt="chat"
-            style={{ width: '200px', height: '70px' }}
+            className="right-0 top-10 hidden h-48 xl:absolute xl:block"
+            src={curlyArrow}
+            alt=""
           />
         </div>
       </div>

@@ -1,10 +1,9 @@
 import { NavLink, Link } from "react-router-dom";
-import FooterBack from "@assets/footer-background.png";
 import Phone from "@assets/phone.svg";
 import Email from "@assets/email.svg";
 import Location from "@assets/location.svg";
 import Line from "@assets/dashed-line.svg";
-import Logo from "@assets/logo.png";
+import Logo from "@assets/logo.svg";
 import Facebook from "@assets/facebook.svg";
 import Twitter from "@assets/twitter.svg";
 import Instagram from "@assets/instagram.svg";
@@ -12,8 +11,10 @@ import Linkedin from "@assets/linkedin.svg";
 
 const Footer = () => {
   return (
-    <section className={`py-10`}>
-      <div className={`wrapper bg-cover`}>
+    <section
+      className={`wrapper bg-[url(/src/assets/footerBack.svg)] bg-cover bg-no-repeat py-10`}
+    >
+      <div className={``}>
         <div className="container relative">
           <div className="flex flex-col justify-center">
             <p className="blue flex justify-center">Get in Touch</p>
@@ -26,16 +27,24 @@ const Footer = () => {
               <h4 className="blue mb-6 font-bold text-sky-600">AI mantra</h4>
               <ul>
                 <li className="mb-3">
-                  <NavLink to="/">Home</NavLink>
+                  <NavLink classname="cursor-pointer" to="/">
+                    Home
+                  </NavLink>
                 </li>
                 <li className="mb-3">
-                  <NavLink to="/About">About us</NavLink>
+                  <NavLink classname="cursor-pointer" to="/About">
+                    About us
+                  </NavLink>
                 </li>
                 <li className="mb-3">
-                  <NavLink to="/Services">Service</NavLink>
+                  <NavLink classname="cursor-pointer" to="/Services">
+                    Service
+                  </NavLink>
                 </li>
                 <li className="mb-3">
-                  <NavLink to="/Career">Career</NavLink>
+                  <NavLink classname="cursor-pointer" to="/Career">
+                    Career
+                  </NavLink>
                 </li>
               </ul>
             </div>

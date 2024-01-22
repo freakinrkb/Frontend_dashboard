@@ -6,6 +6,9 @@ import manageTime from "@assets/manage time.svg";
 const WeWork = () => {
   return (
     <section className="py-12">
+      <h1 className="main-header my-16 flex justify-center text-2xl font-bold">
+        How do we work? The Process of Excellence!{" "}
+      </h1>
       <div className="two-col container gap-4">
         <div className="odd flex justify-center">
           <img className="max-h-[35rem]" src={pana} alt="pana-image" />

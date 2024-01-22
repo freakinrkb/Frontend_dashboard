@@ -11,7 +11,7 @@ const Hero = () => {
             </p>
             <p className="blue mt-8">Question?</p>
           </div>
-          <p className="mt-8 max-w-[60ch] text-sm font-light leading-10 text-[#02073E]">
+          <p className="mt-8 max-w-[60ch] text-sm leading-10 text-[#02073E]">
             Let us take your ideas and give them flight. Our team is ready with
             their skills and dedication to bring yourideas to light. Drop us a
             note hereand we will get back to you within 24 hours.

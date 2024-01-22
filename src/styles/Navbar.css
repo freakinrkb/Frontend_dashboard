@@ -8,6 +8,6 @@ nav {
   font-weight: 500;
   border-bottom: 1px solid red;
 }
-NavLink {
+NavLink classname="cursor-pointer" {
   @apply hover:shadow-sm;
 }
