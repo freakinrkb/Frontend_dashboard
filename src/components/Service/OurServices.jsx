@@ -1,5 +1,6 @@
 import Servicecad from "./Servicecad";
 import icon from "@assets/icon.png";
+import icon1 from "@assets/blockchainicon.svg";
 const OurServices = () => {
   const domainData = [
     {
@@ -52,7 +53,7 @@ const OurServices = () => {
       linkto: "#",
     },
     {
-      src: icon,
+      src: icon1,
       title: "Blockchain Development",
       description:
         "Our ability to always exceed the expectations of our clients and produce the most creative output ",
