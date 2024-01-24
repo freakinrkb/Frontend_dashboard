@@ -3,7 +3,7 @@ import React from 'react'
 const Details = () => {
     return (
         <section>
-            <div className='two-row container'>
+            <div className='px-4 two-row container'>
                 <div className='odd pb-4'>
                     <ul>
                         <li><b className='text-xl'>Job Title :</b> Full Time</li>
@@ -26,7 +26,7 @@ const Details = () => {
                         <li>Be a part of our team, Be a part of our team </li>
                     </ul>
                 </div>
-                <buttons className="ml-4  items-center justify-center rounded-lg bg-[#691f1f] px-6 p-2 text-white text-xl">
+                <buttons className="ml-4  items-center justify-center rounded-lg bg-[#bf3131] px-6 p-2 text-white text-xl">
                     APPLY NOW
                 </buttons>
             </div>

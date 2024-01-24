@@ -20,7 +20,7 @@ const SubHero = () => {
         <div className="even">
           <p className="blue">About our work</p>
           <h1 className="main-header my-4 text-2xl">Who we are</h1>
-          <p className="max-w-[50ch] leading-8">
+          <p className="max-w-[50ch] leading-8 justify-center">
             We’re team of creative minds that work hard to achive our client’s
             goal. We have been offering our innovative technical solutions to
             businesses of all sizes since 2019 that help our clients streamline

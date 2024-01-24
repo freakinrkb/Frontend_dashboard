@@ -30,7 +30,7 @@ const Hero = () => {
           </p>
           <div className="mt-6 flex gap-6">
             <Link to="/career">
-              <button className="start-button shadow-2xl">
+              <button className="p-2 start-button shadow-2xl">
                 Get Started <img src={rightArrow} alt="Started" />
               </button>
             </Link>
