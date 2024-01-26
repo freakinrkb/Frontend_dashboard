@@ -25,7 +25,7 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="nav-elements flex h-20 items-center md:h-28">
-          <ul className="text-md hidden items-center md:flex md:gap-8 lg:gap-12">
+          <ul className="text-md hidden items-center md:flex md:gap-4 lg:gap-12">
             <li>
               <NavLink
                 className={({ isActive }) => `${isActive ? "activeLink " : ""}`}
@@ -40,6 +40,14 @@ const Navbar = () => {
                 to="/about"
               >
                 About us
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                className={({ isActive }) => `${isActive ? "activeLink " : ""}`}
+                to="/products"
+              >
+                Products
               </NavLink>
             </li>
             <li>
@@ -90,6 +98,14 @@ const Navbar = () => {
               className={({ isActive }) => `${isActive ? "activeLink " : ""}`}
               to="/about"
               onClick={handleMenuClick}
+            >
+              About us
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              className={({ isActive }) => `${isActive ? "activeLink " : ""}`}
+              to="/products"
             >
               About us
             </NavLink>

@@ -6,6 +6,7 @@ import About from "@/pages/About.jsx";
 import Contact from "@/pages/Contact.jsx";
 import Career from "@/pages/Career.jsx";
 import Service from "@/pages/Service.jsx";
+import Products from "@/pages/Products.jsx";
 
 import "@styles/index.css";
 import {
@@ -20,6 +21,7 @@ const router = createBrowserRouter(
     <Route path="/" element={<App />}>
       <Route path="" element={<Home />} />
       <Route path="about" element={<About />} />
+      <Route path="products" element={<Products />} />
       <Route path="contact-us" element={<Contact />} />
       <Route path="career" element={<Career />} />
       <Route path="services" element={<Service />} />
