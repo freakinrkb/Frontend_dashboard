@@ -17,7 +17,7 @@ const Hero = () => {
           </div>
           <div className="main-header text-4xl font-bold md:text-5xl">
             <p className="mt-6">
-              <span className="red">AI</span>mantra Work&nbsp;
+              <span className="red">DASH</span> Work&nbsp;
               <span className="blue">Hard</span>
             </p>
             <p className="blue mt-8">to Exceed</p>
