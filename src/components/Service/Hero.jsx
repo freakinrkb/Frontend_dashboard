@@ -16,9 +16,7 @@ const Hero = () => {
             <p className="blue mt-8 font-bold">Your Goals.</p>
           </div>
           <p className="mt-8 max-w-[60ch] text-sm leading-10 text-[#02073E]">
-            We Provides Constantly Our Best Services & Solution For Our Clients.
-            the victory of the managments that supplies best design system
-            guidelines ever.
+          Building the future of the web, one line of code at a time. Designing seamless experiences with every click and every lineBuilding the future of the web, one line of code at a time. Designing seamless experiences with every click and every line
           </p>
           <div className="mt-6 flex gap-6">
             <button className="start-button py-3 shadow-2xl">

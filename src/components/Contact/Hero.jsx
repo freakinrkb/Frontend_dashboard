@@ -12,9 +12,7 @@ const Hero = () => {
             <p className="blue mt-8">Question?</p>
           </div>
           <p className="mt-8 max-w-[60ch] text-sm leading-10 text-[#02073E]">
-            Let us take your ideas and give them flight. Our team is ready with
-            their skills and dedication to bring yourideas to light. Drop us a
-            note hereand we will get back to you within 24 hours.
+          Building the future of the web, one line of code at a time. Designing seamless experiences with every click and every lineBuilding the future of the web, one line of code at a time. Designing seamless experiences with every click and every line
           </p>
         </div>
         <div className="even relative justify-end">

@@ -76,9 +76,7 @@ const Openings = () => {
             We're looking for great people!
           </h1>
           <p className="mx-auto max-w-[90ch] text-center">
-            Experience and talent matter, but they're not everything. We want
-            people embody our values, wear their passions, and who are hungry to
-            grow. If you're one of those people, we want to hear from you.
+          Building the future of the web, one line of code at a time. Designing seamless experiences with every click and every lineBuilding the future of the web, one line of code at a time. Designing seamless experiences with every click and every line
           </p>
         </div>
         <div className="jobs">

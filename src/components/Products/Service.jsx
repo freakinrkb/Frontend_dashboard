@@ -9,8 +9,7 @@ const Service = () => {
             Our Featured Service that We Provide
           </h3>
           <p className="max-w-[40ch] leading-6">
-            Seamlessly see the tasks that need your attention, check when your
-            next meeting is coming up, and keep up with your progress.
+          Building the future of the web, one line of code at a time. Designing seamless experiences with every click and every lineBuilding the future of the web, one line of code at a time. Designing seamless experiences with every click and every line
           </p>
           <ul className="mx-8 my-6 list-disc">
             <li className="my-4 max-w-[30ch]">

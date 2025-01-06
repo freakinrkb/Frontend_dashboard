@@ -9,13 +9,12 @@ const Hero = () => {
             <p className="red mt-8 font-bold">
               Hey,&nbsp;
               <span className="font-bold text-black">
-                We're&nbsp;<span className="blue">AI mantra</span>
+                We're&nbsp;<span className="blue">DASH</span>
               </span>
             </p>
             <p className="mt-8 font-bold text-black">Solution</p>
             <p className="text-font mt-8 max-w-[60ch] text-sm leading-10 text-[#02073E]">
-              We work with our clients to make thier vision true with our
-              inovative development and marketing services
+            Building the future of the web, one line of code at a time. Designing seamless experiences with every click and every line
             </p>
           </div>
         </div>

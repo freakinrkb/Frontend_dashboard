@@ -12,9 +12,7 @@ const Hero = () => {
           AI&nbsp;&nbsp;MANTRA&nbsp;&nbsp;<p className="red inline">Showcase</p>
         </p>
         <p className="my-10 max-w-[80ch] text-center text-sm">
-          The project management tool teams use to stay organized, avoid delays,
-          and have time for the work that matters most. The project management
-          tool teams use to stay organized, avoid delays,
+        Building the future of the web, one line of code at a time. Designing seamless experiences with every click and every lineBuilding the future of the web, one line of code at a time. Designing seamless experiences with every click and every line
         </p>
         <button className="start-button mt-16 flex items-center justify-center gap-4 py-3 shadow-xl">
           Watch Video

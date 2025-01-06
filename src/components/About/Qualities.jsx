@@ -15,8 +15,7 @@ const Qualities = () => {
             WHY CHOOSE US
           </div>
           <b className=" text-2xl leading-[10px] tracking-[-0.5px]">
-            Why The AI mantra Ranked Top Among The Leading Web & App Development Companies
-          </b>
+          Building the future of the web, one line of code at a time. Designing seamless experiences with every click and every line          </b>
         </div>
 
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-2 text-lg  font-dm-sans">

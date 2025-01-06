@@ -37,9 +37,7 @@ const ClientFeedback = () => {
                 Efficient Collaborating
               </div>
               <div className="clip-triangle  text-darkslateblue inline-block py-4 text-sm ">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim velit mollit.
-                Exercitation veniam consequat sunt nostrud amet.
+              Building the future of the web, one line of code at a time. Designing seamless experiences with every click and every lineBuilding the future of the web, one line of code at a time. Designing seamless experiences with every click and every line
               </div>
             </div>
             <div className=" pt-8 text-center">
@@ -62,9 +60,7 @@ const ClientFeedback = () => {
                 Efficient Collaborating
               </div>
               <div className="clip-triangle text-darkslateblue inline-block py-4 text-sm ">
-                Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-                amet sint. Velit officia consequat duis enim velit mollit.
-                Exercitation veniam consequat sunt nostrud amet.
+              Building the future of the web, one line of code at a time. Designing seamless experiences with every click and every lineBuilding the future of the web, one line of code at a time. Designing seamless experiences with every click and every line
               </div>
             </div>
             <div className="pt-8 text-center">

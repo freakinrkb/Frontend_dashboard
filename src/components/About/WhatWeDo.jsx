@@ -7,9 +7,7 @@ const WhatWeDo = () => {
           <div className="main-header text-4xl font-bold md:text-5xl">
             <h2 className="text-2xl">What we do?</h2>
             <p className="mt-8 max-w-[60ch] text-sm font-light leading-10 text-[#02073E] ">
-              AI mantra lteam Best And Top IT Company In India. which has skills
-              and expertise to facilitate complex business solutions. We Provide
-              Complete digital solution for your brand.
+            Building the future of the web, one line of code at a time. Designing seamless experiences with every click and every line
             </p>
           </div>
         </div>

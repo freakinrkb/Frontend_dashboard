@@ -16,10 +16,7 @@ const Hero = () => {
             <p className="mt-8 text-black">Our Team</p>
           </div>
           <p className="mt-8 max-w-[60ch] text-sm  leading-10 text-[#02073E]">
-            Join our Family and be a part of our great culture. We're always
-            looking for talented, passionate team members who have an analytical
-            mind as well! If this sounds like you then we want to hear what's
-            keeping your brain occupied so contact us today or apply online now!
+          Building the future of the web, one line of code at a time. Designing seamless experiences with every click and every lineBuilding the future of the web, one line of code at a time. Designing seamless experiences with every click and every linee now!
           </p>
           <div className="mt-6 flex gap-6">
             <Link to="/contact-us">
