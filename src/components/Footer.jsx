@@ -99,7 +99,7 @@ const Footer = () => {
                         Business Email
                       </h4>
                       <ul>
-                        <li className="">abhishek@aimantra.com</li>
+                        <li className="">abhishek@dash.com</li>
                       </ul>
                     </div>
                   </div>
@@ -137,7 +137,7 @@ const Footer = () => {
                   <img className="w-8" src={Twitter} alt="email" />
                 </div>
               </Link>
-              <Link to="https://www.linkedin.com/company/aimantra/">
+              <Link to="https://www.linkedin.com/company/dash/">
                 <div className="flex max-w-10 items-center justify-center rounded-full bg-sky-600 p-3 shadow-lg">
                   <img className="w-8" src={Linkedin} alt="email" />
                 </div>

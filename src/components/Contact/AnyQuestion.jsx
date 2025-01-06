@@ -37,7 +37,7 @@ const AnyQuestion = () => {
               <div className=" text-left text-3xl font-medium leading-[32px]">
                 Email
               </div>
-              <div className=" opacity-[0.5]">abhishek@aimantra.com</div>
+              <div className=" opacity-[0.5]">abhishek@dash.com</div>
             </div>
           </div>
           <div className=" flex text-xl">

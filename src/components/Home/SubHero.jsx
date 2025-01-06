@@ -28,7 +28,7 @@ const SubHero = () => {
             Creativity&nbsp;&&nbsp;Innovation
           </h1>
           <p className="max-w-[50ch] leading-8">
-            Aimantra Solution is a result-oriented IT company in India and USA.
+            dash Solution is a result-oriented IT company in India and USA.
             With a team of top talanted people who are driven to give you the
             custom software developnent solution and make your life easier.
             <br />
